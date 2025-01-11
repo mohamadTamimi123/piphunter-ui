@@ -1,0 +1,47 @@
+.scrol_bar_section{
+
+    width: 100px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.scrol_bar{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 10px;
+
+    height: 70px;
+    position: relative;
+}
+.scrol_bar_ind{
+
+    width: 2px;
+    height: 70px;
+    display: block;
+}
+
+
+.scrol_tumb{
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+
+.scrol_text{
+   display: block;
+    z-index: 10;
+
+}

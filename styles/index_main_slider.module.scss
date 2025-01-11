@@ -1,0 +1,23 @@
+.main_slider{
+
+  display: flex;
+  .main_slider_title{
+    font-size: 3rem;
+  }
+}
+
+.back_image{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+}
+
+.spline_class{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}

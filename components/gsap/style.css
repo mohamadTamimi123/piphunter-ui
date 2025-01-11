@@ -1,0 +1,26 @@
+/* this pen has external styles in the settings panel */
+
+
+.box-container {
+    top: 50vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    width: 100%;
+    overflow: visible;
+}
+
+.box {
+    font-size: 28px;
+    font-weight: 700;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 15%;
+    margin: 10px;
+}
+
