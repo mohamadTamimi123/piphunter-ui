@@ -7,7 +7,7 @@ export default function BonusSection() {
     <section
       className={`container mx-auto max-w-7xl pt-16 px-6 flex-grow`}
     >
-      <SectionTitle title={"بخش معرفی انواع بونوس"} />
+      <SectionTitle className={""} title={"بخش معرفی انواع بونوس"} />
       <div className={"flex flex-col gap-8 "}>
         <BonusCart />
         <BonusCart />

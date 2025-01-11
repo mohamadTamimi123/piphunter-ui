@@ -4,7 +4,9 @@ export default function SectionTitle({
   className,
 }: {
   title: string;
-  className: string;
+  className: string | undefined ;
+
+
 }) {
   return (
     <>

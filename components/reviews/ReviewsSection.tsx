@@ -11,7 +11,7 @@ export default function ReviewsSection() {
     <section
       className={` ${style.main_plan_section} container mx-auto max-w-7xl pt-16 px-6 flex-grow`}
     >
-      <SectionTitle title={"بخش معرفی انواع نظرات مشتزیان"} />
+      <SectionTitle className={""} title={"بخش معرفی انواع نظرات مشتزیان"} />
 
 
       <div className="flex flex-col gap-4">

@@ -31,7 +31,7 @@ export default function TermsAndConditionMainSection() {
     <section
       className={` ${style.main_plan_section} container mx-auto max-w-7xl pt-16 px-6 flex-grow`}
     >
-      <SectionTitle title={"بخش معرفی انواع شرایط و ضوابط"} />
+      <SectionTitle className={""} title={"بخش معرفی انواع شرایط و ضوابط"} />
       <div className="flex w-full flex-col">
         <Tabs aria-label="Dynamic tabs" items={tabs} placement={"start"}>
           {(item) => (

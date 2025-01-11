@@ -10,7 +10,7 @@ export default function BlogSection() {
     <section
       className={` ${style.main_plan_section} container mx-auto max-w-7xl pt-16 px-6 flex-grow`}
     >
-      <SectionTitle title={"بخش معرفی انواع بلاگ"} />
+      <SectionTitle className={""} title={"بخش معرفی انواع بلاگ"} />
       <div className="gap-2 grid grid-cols-12 grid-rows-2">
         <Card className="col-span-12 sm:col-span-4 h-[300px]">
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
