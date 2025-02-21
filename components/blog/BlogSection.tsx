@@ -8,7 +8,9 @@ import SectionTitle from "@/components/index/SectionTitle";
 export default function BlogSection() {
   return (
     <section
-      className={` ${style.main_plan_section} container mx-auto max-w-7xl pt-16 px-6 flex-grow`}
+      className={`
+        {style.main_plan_section} 
+      container mx-auto max-w-7xl pt-16 px-6 flex-grow`}
     >
       <SectionTitle className={""} title={"بخش معرفی انواع بلاگ"} />
       <div className="gap-2 grid grid-cols-12 grid-rows-2">

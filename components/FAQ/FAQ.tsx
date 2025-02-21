@@ -11,7 +11,9 @@ export default function FAQ() {
 
 
     <section
-      className={` ${style.main_plan_section} container mx-auto max-w-7xl pt-16 px-6 flex-grow`}
+      className={`
+       {style.main_plan_section}
+        container mx-auto max-w-7xl pt-16 px-6 flex-grow`}
     >
       <SectionTitle className={""} title={"بخش معرفی انواع سوالات متداول"} />
       <div className="flex w-full flex-col">

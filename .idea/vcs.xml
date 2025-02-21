@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/../admin/nextui-dashboard-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../backend-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../nextui-dashboard-template" vcs="Git" />
   </component>
 </project>
