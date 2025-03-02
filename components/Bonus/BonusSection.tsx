@@ -11,7 +11,6 @@ export default function BonusSection() {
       <div className={"flex flex-col gap-8 "}>
         <BonusCart />
         <BonusCart />
-
       </div>
     </section>
   );
