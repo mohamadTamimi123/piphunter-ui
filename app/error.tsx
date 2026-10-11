@@ -1,5 +1,6 @@
 "use client";
 
+import { Button } from "@nextui-org/button";
 import { useEffect } from "react";
 
 export default function Error({
@@ -10,22 +11,16 @@ export default function Error({
   reset: () => void;
 }) {
   useEffect(() => {
-    // Log the error to an error reporting service
-    /* eslint-disable no-console */
     console.error(error);
   }, [error]);
 
   return (
-    <div>
-      <h2>Something went wrong!</h2>
-      <button
-        onClick={
-          // Attempt to recover by trying to re-render the segment
-          () => reset()
-        }
-      >
-        Try again
-      </button>
+    <div className="min-h-[60vh] flex flex-col items-center justify-center gap-4 text-center px-6">
+      <h2 className="text-2xl font-bold">مشکلی پیش آمد</h2>
+      <p className="text-default-500">لطفا چند لحظه بعد دوباره تلاش کنید.</p>
+      <Button color="primary" onPress={() => reset()}>
+        تلاش مجدد
+      </Button>
     </div>
   );
 }
